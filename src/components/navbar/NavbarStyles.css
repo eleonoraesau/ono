@@ -1,0 +1,42 @@
+ .navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 2;
+
+}
+
+.nav-menu {
+  display: flex;
+}
+
+li {
+  padding: 0 1rem;
+  list-style-type: none;
+}
+
+.hamburger {
+  display: none;
+  padding: 1rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 940px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
