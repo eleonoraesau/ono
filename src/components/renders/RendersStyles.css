@@ -1,0 +1,22 @@
+.pic1 {
+  width: 75%;
+  padding: 10px;
+  margin: 0 auto;
+  position: inherit;
+}
+
+.pic2 {
+  padding: 10px 0px;
+  margin: 0px 10px;
+  width: 48%;
+}
+
+.renders {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.img-col {
+  display: block;
+}
