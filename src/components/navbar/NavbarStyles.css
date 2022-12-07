@@ -4,9 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   z-index: 2;
   position: absolute;
+}
+
+.img-logo {
+  width: 100%;
+  height: 50%;
 }
 
 .navbar-bg {

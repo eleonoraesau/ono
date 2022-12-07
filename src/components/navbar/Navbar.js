@@ -4,6 +4,9 @@ import {AiOutlineClose} from 'react-icons/ai'
 import {FaLinkedin, FaInstagram, } from 'react-icons/fa'
 import {ImGithub} from 'react-icons/im'
 
+import logo from '/Users/eleonoraesau/Desktop/ono-website/src/assets/ono-pure-removebg-preview.png'
+
+
 import './NavbarStyles.css'
 
 function Navbar() {
@@ -13,7 +16,7 @@ function Navbar() {
   return (
     <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
       <div className="logo">
-         <h2>ELEONORA ESAU</h2>
+         <img src={logo} alt="" className='img-logo'/>
       </div>
       <ul className="nav-menu">
         <li>HOME</li>

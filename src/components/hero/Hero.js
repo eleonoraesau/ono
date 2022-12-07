@@ -11,7 +11,6 @@ function Hero() {
       <div className="overlay">
         <div className="content">
           <h1>Web Dev</h1>
-          <h2>3D render</h2>
         </div>
       </div>
     </div>

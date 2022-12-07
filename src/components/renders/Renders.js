@@ -1,19 +1,24 @@
 import React from 'react'
 import './RendersStyles.css'
-import naulty1 from '/Users/eleonoraesau/Desktop/ono-website/src/assets/naulty1.JPEG'
-import naulty2 from '/Users/eleonoraesau/Desktop/ono-website/src/assets/naulty2.JPEG'
-import naultyfull from '/Users/eleonoraesau/Desktop/ono-website/src/assets/naulty.JPEG'
+
+import naulty1 from '/Users/eleonoraesau/Desktop/ono-website/src/assets/renderberlnder3.png'
+import naultyfull from '/Users/eleonoraesau/Desktop/ono-website/src/assets/uringcloseup.png'
+import pug1 from '/Users/eleonoraesau/Desktop/ono-website/src/assets/pug_close.png'
 
 function Renders() {
   return (
     <div className='renders'>
-      <div className="img-col">
-        <img src={naulty1} alt="naulty render" className='pic1'/>
-        <img src={naulty2} alt="naulty render" className='pic1'/>
+        <div className="container">
+          <div className="naulty">
+            <img src={naulty1} alt="naulty render" className='pic'/>
+          </div>
+          <div className="img-container">
+            <img src={pug1} alt="" className='pugs'/>
+            <img src={naultyfull} alt="naulty render" className='ring'/>
+          </div>
       </div>
-      <img src={naultyfull} alt="naulty render" className='pic2'/>
     </div>
   )
 }
 
-export default Renders
+export default Renders;
