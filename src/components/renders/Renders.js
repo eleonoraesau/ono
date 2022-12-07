@@ -7,10 +7,10 @@ import pug1 from '/Users/eleonoraesau/Desktop/ono-website/src/assets/pug_close.p
 
 function Renders() {
   return (
-    <div className='renders'>
+    <div name="3D" className='renders'>
         <div className="container">
           <div className="naulty">
-            <img src={naulty1} alt="naulty render" className='pic'/>
+            <img src={naulty1} alt="naulty render" className='span-2'/>
           </div>
           <div className="img-container">
             <img src={pug1} alt="" className='pugs'/>

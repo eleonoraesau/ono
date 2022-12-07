@@ -4,8 +4,7 @@ import {AiOutlineClose} from 'react-icons/ai'
 import {FaLinkedin, FaInstagram, } from 'react-icons/fa'
 import {ImGithub} from 'react-icons/im'
 
-import logo from '/Users/eleonoraesau/Desktop/ono-website/src/assets/ono-pure-removebg-preview.png'
-
+import { Link } from 'react-scroll'
 
 import './NavbarStyles.css'
 
@@ -14,25 +13,25 @@ function Navbar() {
   const handleNav = () => setNav(!nav);
 
   return (
-    <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
+    <div name="home" className={nav ? 'navbar navbar-bg' : 'navbar'}>
       <div className="logo">
-         <img src={logo} alt="" className='img-logo'/>
+         <h2>ONO</h2>
       </div>
       <ul className="nav-menu">
-        <li>HOME</li>
-        <li>&lt;/&gt;</li>
-        <li>3D</li>
-        <li>ABOUT</li>
+        <Link to="home" smooth={true} duration={700}><li>HOME</li></Link>
+        <Link to="3D" smooth={true} duration={700}><li>3D</li></Link>
+        <Link to="photos" smooth={true} duration={700}><li>&lt;/&gt;</li></Link>
+        <Link to="about" smooth={true} duration={700}><li>ABOUT</li></Link>
       </ul>
       <div className="hamburger" onClick={handleNav}>
         {!nav? (<IoMdMenu className="icon"/>) : (<AiOutlineClose className="icon"/>)}
       </div>
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
-          <li>HOME</li>
-          <li>&lt;/&gt;</li>
-          <li>3D</li>
-          <li>ABOUT</li>
+          <Link to="home" smooth={true} duration={700}><li>HOME</li></Link>
+          <Link to="3D" smooth={true} duration={700}><li>3D</li></Link>
+          <Link to="photos" smooth={true} duration={700}><li>&lt;/&gt;</li></Link>
+          <Link to="about" smooth={true} duration={700}><li>ABOUT</li></Link>
         </ul>
         <div className="mobile-menu-bottom">
           <div className="menu-icons">
