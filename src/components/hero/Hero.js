@@ -10,7 +10,7 @@ function Hero() {
       </video>
       <div className="overlay">
         <div className="content">
-          <h1>Web Dev</h1>
+          <h1>ELEONORA ESAU</h1>
         </div>
       </div>
     </div>

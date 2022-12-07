@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(var(--num-cols), 1fr);
   margin: auto;
-  padding: 1rem 0;
+  padding: 4.5rem 0;
   gap: var(--gap);
 }
 
@@ -18,7 +18,7 @@
 
 .naulty {
   padding: 20px;
-  margin: 20px;
+  margin: 45px;
 }
 /* .renders .conten {
   top: 0;
