@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero'
 import Renders from './components/renders/Renders';
+import Photos from './components/photos/Photos'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <Renders />
       </div>
+      <Photos />
     </div>
   );
 }
