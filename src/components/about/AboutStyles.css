@@ -1,0 +1,9 @@
+.container {
+  padding: 20pm 20px;
+  margin: auto;
+  display: flex;
+}
+
+h1 {
+ justify-content: center;
+}

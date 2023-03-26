@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero'
 import Renders from './components/renders/Renders';
-import Photos from './components/photos/Photos'
+import Photos from './components/photos/Photos';
+import About from './components/about/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Renders />
       </div>
       <Photos />
+      <About />
     </div>
   );
 }
