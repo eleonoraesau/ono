@@ -10,8 +10,10 @@ function App() {
     <div>
       <div className="main">
         <Navbar />
+        <div>
         <Hero />
         <Renders />
+        </div>
       </div>
       <Photos />
       <About />
